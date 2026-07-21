@@ -1,16 +1,16 @@
 # Temporal Vector Theory
 
-**Teoria Temporal Vetorial (TTV)** é uma hipótese exploratória em que o tempo é tratado como uma grandeza vetorial tridimensional. O tempo próprio observado corresponde à projeção desse vetor sobre a direção temporal acessível ao observador.
+**Temporal Vector Theory (TVT)** is an exploratory hypothesis in which time is modeled as a three-dimensional vector quantity. Observed proper time is interpreted as the projection of that vector onto the temporal direction accessible to an observer.
 
-> This repository develops the Temporal Vector Theory as an open, falsifiable and mathematically explicit research program.
+> This repository develops Temporal Vector Theory as an open, falsifiable, and mathematically explicit research program.
 
-## Equação fundamental
+## Fundamental relation
 
 ```math
 u_\tau^2 + u_\sigma^2 + u_\rho^2 = 1
 ```
 
-com
+with
 
 ```math
 u_\tau = \sqrt{1-\frac{v^2}{c^2}},
@@ -20,17 +20,17 @@ u_\sigma = \frac{v}{c}\cos\varphi,
 u_\rho = \frac{v}{c}\sin\varphi.
 ```
 
-## Ideia central
+## Core idea
 
-- O tempo físico possui três componentes.
-- Observadores percebem apenas uma projeção unidimensional como tempo próprio.
-- A velocidade espacial redistribui a evolução entre o tempo observável e duas direções temporais ocultas.
-- Matéria, antimatéria e matéria escura podem corresponder a orientações diferentes no espaço temporal interno.
-- A teoria deve reproduzir a relatividade conhecida em seu limite observável e produzir previsões falsificáveis adicionais.
+- Physical time has three components.
+- Observers perceive only a one-dimensional projection as proper time.
+- Spatial velocity redistributes evolution between observable time and two hidden temporal directions.
+- Matter, antimatter, and dark matter may correspond to different orientations in an internal temporal space.
+- The theory must reproduce established relativity in its observable limit and produce additional falsifiable predictions.
 
-## Trigonotempo
+## Trigonotime
 
-**Trigonotempo** é o estudo das projeções, ângulos, rotações e distâncias entre vetores de evolução em um espaço temporal multidimensional.
+**Trigonotime** is the provisional name for the study of projections, angles, rotations, and distances between evolution vectors in a multidimensional temporal space.
 
 ```math
 u_\tau=\cos\theta,
@@ -40,20 +40,26 @@ u_\sigma=\sin\theta\cos\varphi,
 u_\rho=\sin\theta\sin\varphi.
 ```
 
-## Estrutura
+## Repository structure
 
-- [`docs/teoria-temporal-vetorial-v0.1.md`](docs/teoria-temporal-vetorial-v0.1.md): formulação conceitual inicial
-- [`docs/postulados.md`](docs/postulados.md): postulados provisórios
-- [`docs/trigonotempo.md`](docs/trigonotempo.md): geometria e trigonometria temporal
-- [`docs/previsoes-testaveis.md`](docs/previsoes-testaveis.md): caminhos de teste e falsificação
-- [`docs/problemas-abertos.md`](docs/problemas-abertos.md): inconsistências e questões ainda não resolvidas
-- [`math/notation.md`](math/notation.md): notação
-- [`math/equations.tex`](math/equations.tex): formulário em LaTeX
+- [`docs/formulation-v0.1.md`](docs/formulation-v0.1.md): initial conceptual formulation
+- [`docs/postulates.md`](docs/postulates.md): provisional postulates
+- [`docs/trigonotime.md`](docs/trigonotime.md): temporal geometry and trigonometry
+- [`docs/testable-predictions.md`](docs/testable-predictions.md): possible tests and falsification paths
+- [`docs/open-problems.md`](docs/open-problems.md): unresolved mathematical and physical issues
+- [`math/notation.md`](math/notation.md): notation
+- [`math/equations.tex`](math/equations.tex): compact LaTeX formula sheet
 
-## Estado científico
+## Scientific status
 
-Esta é uma hipótese especulativa em desenvolvimento. Ela não substitui a relatividade especial, a relatividade geral ou a teoria quântica de campos. Relações conhecidas são usadas como restrições; interpretações adicionais só terão valor físico se levarem a previsões novas, consistentes e testáveis.
+This is a speculative hypothesis under development. It does not replace special relativity, general relativity, or quantum field theory. Established relations are treated as constraints. Any added interpretation will acquire physical value only if it leads to new, consistent, and testable predictions.
 
-## Autoria
+## Authorship
 
-Concebida e desenvolvida iterativamente por **Humberto Cruz**, em colaboração com inteligência artificial.
+Conceived and iteratively developed by **Humberto Cruz**, in collaboration with artificial intelligence.
+
+---
+
+## Português
+
+A **Teoria Temporal Vetorial** propõe que o tempo seja tratado como uma grandeza vetorial tridimensional, sendo o tempo próprio observado uma projeção desse vetor. A documentação principal será mantida em inglês, com traduções em português adicionadas quando forem úteis.
