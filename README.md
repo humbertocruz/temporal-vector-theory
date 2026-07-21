@@ -45,6 +45,7 @@ u_\rho=\sin\theta\sin\varphi.
 - [`docs/formulation-v0.1.md`](docs/formulation-v0.1.md): initial conceptual formulation
 - [`docs/postulates.md`](docs/postulates.md): provisional postulates
 - [`docs/trigonotime.md`](docs/trigonotime.md): temporal geometry and trigonometry
+- [`docs/three-sector-spacetime.md`](docs/three-sector-spacetime.md): candidate `(9,3)` geometry organized as three coupled `3+1` sectors
 - [`docs/testable-predictions.md`](docs/testable-predictions.md): possible tests and falsification paths
 - [`docs/open-problems.md`](docs/open-problems.md): unresolved mathematical and physical issues
 - [`math/notation.md`](math/notation.md): notation
