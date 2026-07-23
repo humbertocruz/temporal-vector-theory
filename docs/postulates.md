@@ -1,63 +1,115 @@
 # Provisional Postulates
 
-## P1. Vector temporal structure
+## P1. Three-dimensional temporal orientation space
 
-The local temporal state of a particle or observer is represented by a three-component vector:
+Fundamental time is modeled as a three-dimensional space of possible orientations. This does not imply three independent clocks.
+
+## P2. One effective clock
+
+Every stable physical system experiences one effective proper-time flow along one selected temporal direction.
+
+## P3. Normalized temporal direction
+
+The local temporal orientation is represented by
 
 ```math
-\mathbf u_T=(u_\tau,u_\sigma,u_\rho).
+\mathbf n_T=(n_0,n_-,n_+),
 ```
 
-## P2. Normalization
-
-The magnitude of total temporal evolution is invariant and normalized:
+with
 
 ```math
-\mathbf u_T\cdot\mathbf u_T=1.
+\mathbf n_T\cdot\mathbf n_T=1.
 ```
 
-## P3. Observable time as projection
+## P4. Angular description
 
-Measured proper time is the projection of `\mathbf u_T` onto the temporal direction accessible to the observer.
-
-## P4. Kinematic reorientation
-
-Relative spatial velocity changes the orientation of the temporal vector without changing its total magnitude:
+A temporal direction is determined by two internal angles:
 
 ```math
-u_\tau=\sqrt{1-\frac{v^2}{c^2}}.
+n_0=\cos\theta,
 ```
 
-## P5. Hidden temporal plane
-
-The hidden components satisfy:
-
 ```math
-u_\sigma^2+u_\rho^2=\frac{v^2}{c^2}.
-```
-
-## P6. Internal temporal orientation
-
-An internal angle `\varphi` distributes the hidden component between two directions:
-
-```math
-u_\sigma=\frac vc\cos\varphi,
+n_-=\sin\theta\cos\phi,
 \qquad
-u_\rho=\frac vc\sin\varphi.
+n_+=\sin\theta\sin\phi.
 ```
 
-## P7. Relativistic limit
+The angle `θ` measures inclination away from the central visible direction. The angle `φ` measures orientation in the hidden temporal plane.
 
-All observable predictions of TVT must reduce to special relativity whenever hidden temporal degrees of freedom produce no additional couplings.
+## P5. Observable time as projection
 
-## P8. Covariance
+Measured proper time is the one-dimensional evolution parameter along the effective temporal direction accessible to the observer.
 
-The final formulation must not depend on a preferred absolute frame. Physical quantities must be defined through invariants, fields, or relations between observers.
+## P6. Temporal-spatial frame locking
 
-## P9. Falsifiability
+Each stable temporal orientation selects one effective spatial triad and therefore one local `3+1` physical section.
 
-Additional temporal dimensions acquire physical meaning only if they produce at least one observable effect distinct from established theories.
+## P7. Central overlap and hidden magnitude
+
+Define
+
+```math
+N_T=n_0^2,
+\qquad
+H_T=n_-^2+n_+^2,
+```
+
+so that
+
+```math
+N_T+H_T=1.
+```
+
+`N_T` measures overlap with the central visible sector, while `H_T` measures hidden inclination.
+
+## P8. Temporal charge
+
+The signed hidden orientation is described by
+
+```math
+q_T=n_+^2-n_-^2.
+```
+
+Temporal charge is distinct from visibility. A hidden balanced state may satisfy `q_T=0` while having `H_T≈1`.
+
+## P9. Kinematic reorientation
+
+In the minimal relativistic limit, relative spatial velocity changes the kinematic temporal direction without changing its norm:
+
+```math
+u_0=\sqrt{1-\frac{v^2}{c^2}}.
+```
+
+The stable internal matter orientation and the kinematic transport direction are distinct variables unless a derivation identifies them.
+
+## P10. Geometric interaction overlap
+
+Non-gravitational interaction strength may depend on overlap between the spatial triads selected by different temporal orientations. The minimal electromagnetic hypothesis is
+
+```math
+\mathcal A_\gamma\propto n_0,
+```
+
+but this must ultimately be derived from a covariant action.
+
+## P11. Primordial orientation dynamics
+
+The complete temporal geometry is assumed to precede sector selection. High-temperature symmetry, subsequent symmetry breaking, and cosmological freeze-out may determine the abundance of central, positive, negative, balanced, and mixed states.
+
+## P12. Relativistic limit
+
+All observable predictions must reduce to special relativity whenever additional temporal-orientation couplings are absent or unobservable.
+
+## P13. Covariance and stability
+
+The final formulation must not depend on a preferred absolute frame and must avoid ghosts, uncontrolled negative-energy modes, and causal instability.
+
+## P14. Falsifiability
+
+Additional temporal dimensions acquire physical meaning only if the framework produces at least one consistent observable effect distinct from established theories.
 
 ## Status
 
-These postulates are design constraints for the research program, not established facts.
+These postulates are design constraints for a speculative research program, not established facts.
